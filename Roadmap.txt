@@ -1,0 +1,17 @@
+1) Create a Django Project
+
+2) Setup database using migrate function on manage.py
+
+3) Startapp 
+
+4) Add app name to "INSTALLED APP" section in settings.py
+
+5) Edit App/Models.py to create objects
+
+6) While creating objects, you are actually using the inbuilt "models" library!!
+
+7) ForeignKey -- used to create association
+
+8) To create tables for models--- "makemigrations" using manage.py and then "migrate"
+
+9) Register class with admin in app/admin.py
